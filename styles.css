@@ -7,15 +7,53 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 150px;
+  gap: 120px;
 }
 
 h1 {
-   
+   font-size: 50px;
 }
 
 .profile-picture {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-item a {
+  color: #2563eb;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+h2{
+    font-size: 45px;
+}
+
+p{
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }

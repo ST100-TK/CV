@@ -57,3 +57,42 @@ p{
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.education-item {
+            margin-bottom: 28px;
+            text-align: center;
+        }
+
+        .education-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 4px;
+        }
+
+        .education-status {
+            font-size: 20px;
+            color: #2563eb;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .education-date {
+            font-size: 18px;
+            color: #6b7280;
+            margin-bottom: 4px;
+        }
+
+        .education-institution {
+            font-size: 20px;
+            color: #374151;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .education-courses {
+            font-size: 20px;
+            color: #6b7280;
+            font-style: italic;
+            /* max-width: 1000px; */
+        }
